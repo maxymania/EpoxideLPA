@@ -57,7 +57,6 @@ RecordSet<Entity1> rs = db.getRecordSet(Entity1.class);
 // iterate over the table
 
 {
-	QueryableRecordSet<Entity1> rs = db.getRecordSet(Entity1.class);
 	IterableIterator<Entity1> iter = rs.getEntities();
 	for(Entity1 entity:iter){
 		System.out.println("-----------------------------------");
